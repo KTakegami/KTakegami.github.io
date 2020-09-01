@@ -1,0 +1,94 @@
+/* .row > * {
+  border: 1px solid;
+} */
+
+.navbar-toggler {
+  background-color: rgba(211,211,211,0.6);
+}
+
+.text-dark {
+  text-shadow: 2px 2px 4px #fff;
+}
+
+.video-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  /* 高さを自動指定 */
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  opacity: 0.8;
+  font-size: 250%;
+  top: 50%;
+  transform: translateY(-50%);
+  /* y軸に-50%移動 */
+}
+
+.introduction {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.self-photo {
+  margin: 0 auto;
+}
+
+.skill_content {
+  list-style: none;
+  padding: 0;
+}
+
+.skill_list {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill_font {
+  font-size: 3rem;
+}
+.skill_content img {
+  height: 45px;
+  width: 45px;
+}
+
+.border {
+  border-width: 3px;
+}
+
+
+
+.skill {
+  background-color: aqua;
+}
+
+.hobby {
+  background-color: green;
+}
+
+hr, .Selfintroduction > p {
+  margin: 0;
+}
+
+.footer_icon {
+  display: flex;
+  position: absolute;
+  right: 10%;
+}
+
+.footer_icon a {
+  font-size: 40px;
+}
+
+
+
+
+
