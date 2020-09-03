@@ -78,6 +78,20 @@ hr, .Selfintroduction > p {
   margin: 0;
 }
 
+.form {
+  width: 80%;
+}
+
+.form-control{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+}
+
 .footer_icon {
   display: flex;
   position: absolute;

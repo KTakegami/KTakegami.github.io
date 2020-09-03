@@ -68,9 +68,9 @@
         </div>
         <div class="col-sm-6 Selfintroduction">
           <!-- 自己紹介 -->
-          <h1 class="text-center">Profile</h1>
+          <h1 class="text-center mt-5">Profile</h1>
           <hr class="border">
-          <div class="introduction mt-4" id="inTro">
+          <div class="introduction mt-5" id="inTro">
             <p>竹上克司</p>
             <p>1996年 和歌山県出身</p>
             <p>趣味：音楽/ファッション/漫画/旅行/グルメ</p>
@@ -123,21 +123,48 @@
       </div>
     </div>
     
-    <h1 class="mt-5 mb-4 text-center" id="learning">Learning</h1>
+    <!-- 現在学習中 -->
+    <h1 class="mt-5 text-center" id="learning">Learning</h1>
     <hr class="border">
 
-
-    <div class="learning container-fuild pt-5 bg-light">
-      <div class="row">
-        <div class="col-sm-6 text-center" style="height:400px">
-          <h2>CalendarApp</h2>
+    <div class="container-fuild learning py-5 bg-light">
+      <div class="row  text-center" id="creating">
+        <div class="col-12" id="hradd">
+          <h1>Creating portfolio</h1>
+          <p class="text-danger">バックエンド：Laravel <br>
+             フロントエンド：Bootstrap/jQuery/JavaScript <br>
+             データベース：Mysql
+          </p>
+          <h2>~Coming Soon~</h2>
         </div>
-        <div class="col-sm-6 text-center" style="height:400px">
-          <h2>訪問看護会社HP作成</h2>
-        </div>
-      </div>
     </div>
+    </div>
+
+    <!-- お問い合わせフォーム -->
+    <h1 class="mt-5 text-center" id="contact">Contact</h1>
+    <hr class="border">
+
+    <form method="POST" action="mailto:katsudon1227@gmail.com">
+      <div class="form container-fuild ml-auto mr-auto mt-5 mb-5">
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input id="name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input id="email" type="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="content">お問い合わせ内容</label>
+          <textarea id="content" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary px-4 py-2">送信</button>
+      </div>
+
+    </form>
     
+    <!-- フッター -->
     <footer id="sns" class="bg-dark d-flex align-items-center justify-content-center" style="height:150px">
       <p class="text-light mb-0">©︎ KATSUSHI TAKEGAMI 2020</p>
       <div class="footer_icon">
